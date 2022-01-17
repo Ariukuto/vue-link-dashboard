@@ -1,23 +1,20 @@
 <script>
 
-  const App = {
-    name: 'App',
-    components: {}
-  }
+  import Navigation from './components/Navigation.vue';
 
-  export {
-    App
+  export default {
+    name: 'App',
+    components: {
+      Navigation
+    }
   }
 
 </script>
 
 <template>
-  <div>
-  </div>
+  <Navigation />
 </template>
 
 <style>
-  #app {
 
-  }
 </style>
